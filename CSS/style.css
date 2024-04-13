@@ -1,0 +1,175 @@
+#logoimage
+{
+	width:60px;
+}
+ .navbar {
+	background: #66A5AD;
+ 	
+ }
+
+ .nav-link{
+ 	color: #F1F1F2;
+ 	 font-family: "IBM Plex Mono", monospace;
+ }
+ .navbar-brand{
+ 	color: #002C54;
+ 	font-family: "Dancing Script", cursive;
+ 	 font-weight: 800;
+ }
+
+ .jumbotron{
+
+ 	background-color:  #C4DFE6;
+ 	width:100%;
+ 	height: 100vh;
+ 	border-radius: 0;
+clip-path: polygon(61% 0, 100% 4%, 100% 100%, 35% 100%, 0 97%, 0% 0%);
+
+
+
+ 
+ }
+ #hero h1,h2{
+ 	color:#002C54;
+ }
+  #hero p{
+ 	color:#107869;
+ }
+
+.btn{
+color: #002C54;
+}
+
+#changetext {
+	color:white;
+	font-size: 40px;
+	font-style: italic; 
+
+}
+
+#changetext:after {
+	content: "";
+	animation-name : changetextanim;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes changetextanim
+{
+0%{
+	content: "Germany";
+	color: #5DD6F4;
+}
+
+25% {
+	content: "Unites States";
+color: #5CD85A;
+}
+50%{
+	content: "India";
+	color: #0A758F;
+}
+75%{
+	content: "France";
+	color: #5CD85A;
+}
+100%{
+	content: "Germany";
+	color: #5DD6F4;
+}
+}
+
+#rating .card {
+	height: 150px;
+	border-radius: 25px; 
+	/* border radius used for curved border  */
+}
+
+#rating .card img{
+	width: 40px;
+}
+
+#rating #star{
+	color: gold;
+	font-size: 25px;
+	margin-top: 40px;
+}
+
+/* #Packages {margin-top: 4;} instead of this mentioned mt-4 in container class  */
+
+#Packages {
+	color: #002C54;
+	font: bold;
+}
+
+#Packages h2 {
+	color: cadetblue;
+	text-align: left;
+}
+
+#Packages #star{
+	color: gold;
+	font-size: 20px;
+	margin: 20px 0px; /*TRBL - top right bottom left or TB,LR  */
+	text-align:left;
+}
+
+#productprice{
+	color: black;
+	float: left;
+}
+
+#Packages #add-btn{
+	color: orange;
+}
+
+#add-btn {
+	float:left;
+}
+
+#Packages .card{
+	border-radius: 20px;
+}
+
+#Packages .btn{
+	color: white;
+	background-color: orange;
+	border: none;
+	cursor: pointer;
+}
+
+#Services #card2{
+	background-color: #ADD8E6;
+}
+#Aboutus h1,h3{
+	color:#0F52BA;
+	
+	font-style: italic;
+}
+
+#Aboutus #para
+{
+	color: #40B5AD	;	
+   text-align: justify;
+   
+}
+
+.Footer h4,h5{
+	color:#0F52BA;
+}
+
+.Footer{
+	display: flex;
+	align-items: center;
+	height: 250px;
+	background-color: #3F8393;
+	color: white;
+}
+
+.Footer ul{
+	list-style-type: square;
+}
+
+.social .social-icons{
+	padding: 0.5rem 1rem;
+}
